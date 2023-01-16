@@ -114,7 +114,31 @@ main section {
  }
 
  /* skill section  */
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-desc{
+ width: 600px;
+ margin: 20px;
 
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: start;
+}
+.skill-content img{
+    width: 50%;
+    height: 50%;
+}
 /* media -screen  */
 
 @media only screen and (max-width:575px) {
@@ -155,4 +179,19 @@ main section {
         background-color: var(--white);
         padding: 10px;
     }
+.skill{
+    margin: 0;
+}
+.section-desc{
+    width: 100%;
+}
+.skill-container{
+    flex-direction: column;
+    align-items: center;
+}
+.skill-content{
+    justify-content: center;
+    align-items: center;
+}
+
 }
