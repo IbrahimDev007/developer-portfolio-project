@@ -88,7 +88,30 @@ header {
 main section {
 	margin: 150px;
 }
-
+ /* About section */
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fd6f0a1a ;
+    padding: 100px;
+ }
+ .about-desc{
+    width: 600px;
+    padding-bottom: 20px;
+ }
+ .a-content-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+ }
 
 
 
