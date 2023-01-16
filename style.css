@@ -113,7 +113,7 @@ main section {
     margin-right: 20px;
  }
 
-
+ /* skill section  */
 
 /* media -screen  */
 
@@ -135,5 +135,24 @@ main section {
     .b-desc{
         width: 100%;
     }
-
+    .about{
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+    }
+    .about-desc{
+        width: 100%;
+        text-align: center;
+    }
+ .a-content-container{
+    flex-direction: column;
+  
+ }
+    .about-content{
+        margin: 20px;
+        color: #fd6e0a;
+        border: #fd6e0a solid;
+        background-color: var(--white);
+        padding: 10px;
+    }
 }
